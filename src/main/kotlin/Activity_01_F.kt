@@ -14,9 +14,9 @@ fun main(){
             "\n[Mobile Application Development]")
     println()
 
-    print("Enter 1st String: ")
+    print("Enter 1st word: ")
     var firstStringInput: String = readln().lowercase()
-    print("Enter 2nd String: ")
+    print("Enter 2nd word: ")
     var secondStringInput: String = readln().lowercase()
 
     var sameCharacter: String = ""
