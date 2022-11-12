@@ -276,7 +276,7 @@ fun main(){
                         }
                     }
 
-                }else if(userChoose == "3"){                                                                //[3]Borrow
+                }else if(userChoose == "3"){                                                                //[3]Return
 
                     var loopReturnBook: Boolean = true
                     while (loopReturnBook) {
