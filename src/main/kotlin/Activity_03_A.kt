@@ -22,6 +22,11 @@ fun main(){
     var inputName: String = ""
     var inputUserChoose: String = ""
 
+    //User Interface/Interaction
+    println("[      Welcome to KODEGO       ]" +
+            "\n[Mobile Application Development]" +
+            "\n[      Students Directory      ]")
+
     var loopAddStudent: Boolean = true
     while (loopAddStudent){
         println()
