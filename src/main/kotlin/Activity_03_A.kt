@@ -38,7 +38,7 @@ fun main(){
                 "\n[6] Check Student in Record" +
                 "\n[X] Exit")
         print("Choose a number that available on the list or [X] to Exit: ")
-        inputUserChoose = readln()
+        inputUserChoose = readln().uppercase()
 
         if(inputUserChoose == "1"){
             println()
