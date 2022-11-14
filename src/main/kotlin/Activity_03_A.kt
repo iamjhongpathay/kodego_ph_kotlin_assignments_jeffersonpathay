@@ -27,8 +27,8 @@ fun main(){
             "\n[Mobile Application Development]" +
             "\n[      Students Directory      ]")
 
-    var loopAddStudent: Boolean = true
-    while (loopAddStudent){
+    var loopMainMenuStudent: Boolean = true
+    while (loopMainMenuStudent){
         println()
         println("[1] List of all Student" +
                 "\n[2] Add Student" +
@@ -117,6 +117,13 @@ fun main(){
             print("Enter Name: ")
             inputName = readln()
             studentsObject.isStudentInRecord(inputName)
+        }else if(inputUserChoose == "X"){
+            println()
+            println("Shutting down..." +
+                    "\n------------------------------------------------------")
+            loopMainMenuStudent = false
+        }else{
+            println("[ERROR: The number you've been enter is not on the list]")
         }
     }
 
