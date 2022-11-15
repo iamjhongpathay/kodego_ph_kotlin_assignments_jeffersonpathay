@@ -1,3 +1,5 @@
+import java.lang.Exception
+
 /*
 Covered Topic(s) : Functions
 
@@ -31,45 +33,52 @@ fun main(){
 
     var loopGroceryCart: Boolean = true
     while (loopGroceryCart){
-        println()
-        print("[1] Add to Cart" +
-                "\n[2] Remove Product from Cart" +
-                "\n[3] Checkout" +
-                "\nEnter here: ")
-        var userChoose: Int = readln().toInt()
-        println()
+        try {
+            println()
+            print("[1] Add to Cart" +
+                    "\n[2] Remove Product from Cart" +
+                    "\n[3] Checkout" +
+                    "\nEnter here: ")
+            var userChoose: Int = readln().toInt()
+            println()
 
 
-        if(userChoose == 1){
-            println("[------ADD TO CART------]")
-            print("Enter the name of the product and quantity to add in the cart." +
-                    "\nEnter name: ")
-            var productNameInput: String = readln()
-            print("Enter quantity: ")
-            var productQuantity: Int = readln().toInt()
-            cartObject.addToCart(productNameInput, productQuantity)
+            if(userChoose == 1){
+                println("[------ADD TO CART------]")
+                print("Enter the name of the product and quantity to add in the cart." +
+                        "\nEnter name: ")
+                var productNameInput: String = readln()
+                print("Enter quantity: ")
+                var productQuantity: Int = readln().toInt()
+                cartObject.addToCart(productNameInput, productQuantity)
 
-            println("-----------------")
-            println("Your Cart:")
-            cartObject.showCart()
+                println("-----------------")
+                println("Your Cart:")
+                cartObject.showCart()
 
-        }else if(userChoose == 2){
-            println("[------REMOVE FROM CART------]")
-            print("Enter the name of the product from your cart to remove." +
-                    "\nEnter name: ")
-            var productNameInput: String = readln()
-            cartObject.removeFromCart(productNameInput)
+            }else if(userChoose == 2){
+                println("[------REMOVE FROM CART------]")
+                print("Enter the name of the product from your cart to remove." +
+                        "\nEnter name: ")
+                var productNameInput: String = readln()
+                cartObject.removeFromCart(productNameInput)
 
-            print("-----------------")
-            println("Your Cart:")
-            cartObject.showCart()
+                print("-----------------")
+                println("Your Cart:")
+                cartObject.showCart()
 
-        }else if(userChoose == 3){
-            println("[------CHECKOUT------]")
-            cartObject.showCart()
-            println("----------------------")
-            cartObject.checkOut()
-            println("[--------------------]")
+            }else if(userChoose == 3){
+                println("[------CHECKOUT------]")
+                cartObject.showCart()
+                println("----------------------")
+                cartObject.checkOut()
+                println("[--------------------]")
+            }else{
+                println()
+                println("[REMINDER]: You enter a number that not on the list of choices.")
+            }
+        }catch (e: Exception){
+            println("[REMINDER]: Please Enter Digits Only")
         }
     }
 
