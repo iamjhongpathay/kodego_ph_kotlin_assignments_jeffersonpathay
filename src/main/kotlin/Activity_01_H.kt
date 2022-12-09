@@ -14,7 +14,7 @@ Input:
 fun main(){
     //User Interface/Interaction
     println()
-    println("[      Welcome to KODEGO       ]" +
+    println("[      Welcome to KodeGo       ]" +
             "\n[Mobile Application Development]")
     println()
 

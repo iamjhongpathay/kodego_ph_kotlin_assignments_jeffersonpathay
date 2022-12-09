@@ -10,7 +10,7 @@ Loops
 fun main(){
 
     //User Interface/Interaction
-    println("[      Welcome to KODEGO       ]" +
+    println("[      Welcome to KodeGo       ]" +
             "\n[Mobile Application Development]")
     println()
 

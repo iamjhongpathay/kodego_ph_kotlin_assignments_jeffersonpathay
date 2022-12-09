@@ -23,7 +23,7 @@ fun main(){
     var cartObject = Cart()
 
     //User Interface/Interaction
-    println("[      Welcome to KODEGO       ]" +
+    println("[      Welcome to KodeGo       ]" +
             "\n[Mobile Application Development]" +
             "\n[        Grocery Cart          ]")
 

@@ -2,7 +2,7 @@
 Identify 3 uses cases that will efficiently use an Array, ArrayList, Set, Map.
  */
 fun main(){
-    println("[      Welcome to KODEGO       ]" +
+    println("[      Welcome to KodeGo       ]" +
             "\n[Mobile Application Development]")
 
     var loopMainMenu: Boolean = true

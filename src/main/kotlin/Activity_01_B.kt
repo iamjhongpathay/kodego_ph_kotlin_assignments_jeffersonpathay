@@ -42,7 +42,7 @@ fun main(){
     var loopUI: Boolean = true
 
     //User Interface/Interaction
-    println("[      Welcome to KODEGO       ]" +
+    println("[      Welcome to KodeGo       ]" +
             "\n[Mobile Application Development]" +
             "\n[  Library Management System   ]")
 

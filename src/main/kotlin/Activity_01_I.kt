@@ -92,7 +92,7 @@ fun main(){
     while (loopLogIn) {
 
         println()
-        println("[      Welcome to KODEGO       ]" +
+        println("[      Welcome to KodeGo       ]" +
                 "\n[Mobile Application Development]" +
                 "\n[  Library Management System   ]")
         println()

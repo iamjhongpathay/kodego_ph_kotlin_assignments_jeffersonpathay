@@ -21,7 +21,7 @@ fun main(){
     var inputUserChoose: String = ""
 
     //User Interface/Interaction
-    println("[      Welcome to KODEGO       ]" +
+    println("[      Welcome to KodeGo       ]" +
             "\n[Mobile Application Development]" +
             "\n[      Library Management      ]")
 

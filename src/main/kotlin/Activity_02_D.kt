@@ -10,7 +10,7 @@ fun main(){
     val amounts = mutableMapOf<Int, Long>()
 
     //User Interface/Interaction
-    println("[      Welcome to KODEGO       ]" +
+    println("[      Welcome to KodeGo       ]" +
             "\n[Mobile Application Development]")
 
     //user interface loop

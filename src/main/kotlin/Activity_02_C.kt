@@ -65,7 +65,7 @@ fun main(){
     while (loopLogin){
 
         //User Interface/Interaction
-        println("[      Welcome to KODEGO       ]" +
+        println("[      Welcome to KodeGo       ]" +
                 "\n[Mobile Application Development]" +
                 "\n[ Inventory Management System  ]")
         println()

@@ -56,7 +56,7 @@ fun main() {
 
     //User Interface/Interaction
     println(
-        "[      Welcome to KODEGO       ]" +
+        "[      Welcome to KodeGo       ]" +
                 "\n[Mobile Application Development]" +
                 "\n[ Inventory Management System  ]"
     )

@@ -50,7 +50,9 @@ fun main(){
     var loopUI: Boolean = true
 
     //User Interface/Interaction
-    println("[      Welcome to KODEGO       ]\n[Mobile Application Development]\n[      Students Directory      ]")
+    println("[      Welcome to KodeGo       ]\n" +
+            "[Mobile Application Development]\n" +
+            "[      Students Directory      ]")
 
 
 
